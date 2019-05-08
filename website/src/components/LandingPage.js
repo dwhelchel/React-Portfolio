@@ -11,9 +11,9 @@ class LandingPage extends Component {
 							<div className="portrait"></div>
 						</div>
 						<div className="banner-text">
-							<h1>Front-End Web Developer</h1>
+							<h1>Software Developer</h1>
 							<hr />
-							<p>CSS | HTML5 | C# | C++ | PosgresSQL | JavaScript | React | Angular</p>
+							<p>CSS | HTML5 | C# | C++ | Python | PostgreSQL | JavaScript | React | Angular | Bootstrap</p>
 							<div className="socials">
 								<a href="https://github.com/dwhelchel" rel="noopener noreferrer" target="_blank">
 									<i className="fa fa-github" aria-hidden="true" />

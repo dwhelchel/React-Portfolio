@@ -4,29 +4,27 @@
 }
 
 .landing-grid {
-    background: #870000;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #190A05, #870000);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #190A05, #870000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #1A2980;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #26D0CE, #1A2980);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #26D0CE, #1A2980); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     text-align: center;
     position: fixed;
     width: 100%;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .header-color {
-    background: #870000;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #190A05, #870000);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #190A05, #870000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
-.avatar {
-    height: 200px;
-    padding-top: 5em;
+    background: #1A2980;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #26D0CE, #1A2980);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #26D0CE, #1A2980); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .banner-text {
     background-color: black;
-    opacity: .8;
+    opacity: .6;
     width: 75%;
     margin: auto;
     border-radius: 10px;
@@ -37,7 +35,7 @@
     font-size: 66px;
     font-weight: bold;
     color: white;
-    margin-bottom: 4px;
+    margin-bottom: 2px;
     padding-top: 4px;
 }
 
@@ -51,11 +49,12 @@
     color: white;
     font-size: 20px;
     padding: 1em;
+    padding-bottom: 0;
 }
 
 .socials {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     width: 50%;
     margin: auto;
 }
@@ -63,29 +62,99 @@
 .socials i {
     color: white;
     font-size: 5em;
-    padding-bottom: 10px;
+    padding: 0 10px;
+    padding-bottom: 12px;
 }
 
-.socials i:hover[class="fa fa-github"] {
-    color: #190A05;
-}
-
-.socials i:hover[class="fa fa-linkedin"] {
-    color: #870000;
+.socials i:hover {
+    color: #26D0CE;
 }
 
 .portrait-container {
     text-align: center;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .portrait {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     background-image: url('https://avatars1.githubusercontent.com/u/14877763?s=460&v=4');
     background-size: cover;
     display: block;
-    border-radius: 100px;
-    -webkit-border-radius: 100px;
-    -moz-border-radius: 100px;
+    border-radius: 200px;
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+    display: inline-block;
+}
+
+.project-card {
+    min-width: 450;
+    margin: auto;
+}
+
+.card-title-cplusplus {
+    color: #fff;
+    height: 176px;
+    background: url('https://media.geeksforgeeks.org/wp-content/cdn-uploads/titleShadow-1024x341.png') center / cover;
+}
+
+.projects-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-button {
+    text-decoration: none;
+    color: blue;
+}
+
+.contact-body {
+    margin: auto;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    padding-top: 2em;
+}
+
+.contact-grid {
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+    height: 550px;
+    background: white;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.contact-grid h2 {
+    font-family: 'Anton', sans-serif;
+}
+
+.contact-grid p {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
+}
+
+.contact-grid hr {
+    border-top: 10px line black;
+    width: 50%;
+    margin:auto;
+}
+
+.contact-list i {
+    font-size: 50px;
+    padding-right: 10px;
+}
+
+.contact-list {
+    text-align: center;
+}
+
+.contact-list List {
     display: inline-block;
 }
