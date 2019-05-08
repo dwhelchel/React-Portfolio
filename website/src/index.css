@@ -158,3 +158,9 @@
 .contact-list List {
     display: inline-block;
 }
+
+.resume-right-col {
+    background: #27221F;
+    color: white;
+    padding-left: 2em;
+}
