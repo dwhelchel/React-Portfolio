@@ -163,4 +163,6 @@
     background: #27221F;
     color: white;
     padding-left: 2em;
+    border-radius: 20px;
+    padding-bottom: 10px;
 }

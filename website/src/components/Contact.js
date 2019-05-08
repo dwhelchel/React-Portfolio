@@ -9,9 +9,9 @@ class Contact extends Component {
 					<Cell col={6}>
 						<h2>Dakota Whelchel</h2>
 						<img
-							src="https://media.licdn.com/dms/image/C4E03AQHD3BBkWOgjjw/profile-displayphoto-shrink_200_200/0?e=1562803200&v=beta&t=6G4IjGPCFMDMEvkeKsPT9bREJPY_c7YzE4l_YNeELmc"
+							src="https://avatars1.githubusercontent.com/u/14877763?s=460&v=4"
 							alt="avatar"
-							style={{height: '250px', width: '250px', borderRadius: "75px"}}
+							style={{height: '300px', width: '300px', borderRadius: "150px"}}
 							/>
 						<p style={{width: '75%', margin: 'auto', paddingTop: '1em'}}>
 						Lorem Ipsum is simply dummy text of the printing and typesetting industry.
