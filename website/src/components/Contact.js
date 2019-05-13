@@ -14,10 +14,9 @@ class Contact extends Component {
 							style={{height: '300px', width: '300px', borderRadius: "150px"}}
 							/>
 						<p style={{width: '75%', margin: 'auto', paddingTop: '1em'}}>
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-						Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-						when an unknown printer took a galley of type and scrambled it to make a type
-						specimen book.</p>
+						My phone is available to call or text anytime 9am - 5pm, however I prefer email messages.
+						I look forward to speaking with you soon.
+						</p>
 					</Cell>
 					<Cell col={6}>
 						<h2>Contact Me</h2>

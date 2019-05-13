@@ -166,3 +166,32 @@
     border-radius: 20px;
     padding-bottom: 10px;
 }
+
+.about-me-div {
+    text-align: center;
+    margin-top: 18px;
+}
+
+.about-me-div h1 {
+    font-family: Georgia;
+    color: white;
+    text-decoration: underline;
+}
+
+.about-me-div h3 {
+    font-family: Georgia;
+    font-size: 24px;
+    color: white;
+}
+
+.about-me-div p {
+    font-size: 18px;
+    color: white;
+}
+
+.about-me-grid {
+    width: 60%;
+    background-color: #27221F;
+    border-radius: 12px;
+    height: 800px;
+}
