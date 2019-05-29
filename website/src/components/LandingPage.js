@@ -10,17 +10,19 @@ class LandingPage extends Component {
 						<div className="portrait-container">
 							<div className="portrait"></div>
 						</div>
-						<div className="banner-text">
-							<h1>Junior Software Developer</h1>
-							<hr />
-							<p>CSS | HTML5 | C# | C++ | Python | PostgreSQL | JavaScript | React | Angular | Bootstrap</p>
-							<div className="socials">
-								<a href="https://github.com/dwhelchel" rel="noopener noreferrer" target="_blank">
-									<i className="fa fa-github" aria-hidden="true" />
-								</a>
-								<a href="https://www.linkedin.com/in/dakota-whelchel" rel="noopener noreferrer" target="_blank">
-									<i className="fa fa-linkedin" aria-hidden="true" />
-								</a>
+						<div className="banner-container">
+							<div className="banner-text">
+								<h1>Junior Software Developer</h1>
+								<hr />
+								<p>CSS | HTML5 | C# | C++ | Python | PostgreSQL | JavaScript | React | Angular | Bootstrap</p>
+								<div className="socials">
+									<a href="https://github.com/dwhelchel" rel="noopener noreferrer" target="_blank">
+										<i className="fa fa-github" aria-hidden="true" />
+									</a>
+									<a href="https://www.linkedin.com/in/dakota-whelchel" rel="noopener noreferrer" target="_blank">
+										<i className="fa fa-linkedin" aria-hidden="true" />
+									</a>
+								</div>
 							</div>
 						</div>
 					</Cell>

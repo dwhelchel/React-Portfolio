@@ -1,3 +1,7 @@
+.body {
+    margin: 0;
+}
+
 .landing-page {
     width: 100%;
     margin: auto;
@@ -20,6 +24,10 @@
     background: #1A2980;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #26D0CE, #1A2980);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #26D0CE, #1A2980); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.banner-container {
+    margin-right: 15px;
 }
 
 .banner-text {
@@ -76,6 +84,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 15px;
 }
 
 .portrait {
@@ -194,4 +203,133 @@
     background-color: #27221F;
     border-radius: 12px;
     height: 800px;
+}
+
+@media screen and (max-width: 376px) { /* iPhone X/Xs */
+    .banner-text h1 {
+        font-size: 41px;
+        font-weight: bold;
+        color: white;
+        margin-bottom: 2px;
+        padding-top: 4px;
+        margin-top: 28px;
+    }
+    .banner-text {
+        background-color: black;
+        opacity: .6;
+        width: 90%;
+        margin: auto;
+        border-radius: 10px;
+        text-align: center;
+    }
+    .banner-text hr {
+        border-top: 5px line white;
+        margin-bottom: 0;
+        margin-top: 10px;
+        width: 50%;
+    }
+
+    .banner-text p {
+        color: white;
+        font-size: 18px;
+        padding: 1em;
+        padding-bottom: 0;
+    }
+    .portrait {
+        width: 300px;
+        height: 300px;
+        background-image: url('https://avatars1.githubusercontent.com/u/14877763?s=460&v=4');
+        background-size: cover;
+        display: block;
+        border-radius: 150px;
+        -webkit-border-radius: 150px;
+        -moz-border-radius: 150px;
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 483px) and (max-height: 792px) { /* iPhone 6/7/8 Plus */
+    .banner-text h1 {
+        font-size: 45px;
+        font-weight: bold;
+        color: white;
+        margin-bottom: 2px;
+        padding-top: 4px;
+        margin-top: 28px;
+    }
+    .banner-text {
+        background-color: black;
+        opacity: .6;
+        width: 90%;
+        margin: auto;
+        border-radius: 10px;
+        text-align: center;
+    }
+    .banner-text hr {
+        border-top: 5px line white;
+        margin-bottom: 0;
+        margin-top: 10px;
+        width: 50%;
+    }
+
+    .banner-text p {
+        color: white;
+        font-size: 18px;
+        padding: 1em;
+        padding-bottom: 0;
+    }
+    .portrait {
+        width: 325px;
+        height: 325px;
+        background-image: url('https://avatars1.githubusercontent.com/u/14877763?s=460&v=4');
+        background-size: cover;
+        display: block;
+        border-radius: 162px;
+        -webkit-border-radius: 162px;
+        -moz-border-radius: 162px;
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 376px) and (max-height: 668px) { /* iPhone 6/7/8 */
+    .banner-text h1 {
+        font-size: 40px;
+        font-weight: bold;
+        color: white;
+        margin-bottom: 2px;
+        padding-top: 4px;
+        margin-top: 26px;
+    }
+    .banner-text {
+        background-color: black;
+        opacity: .6;
+        width: 90%;
+        margin: auto;
+        border-radius: 10px;
+        text-align: center;
+    }
+    .banner-text hr {
+        border-top: 5px line white;
+        margin-bottom: 0;
+        margin-top: 10px;
+        width: 50%;
+    }
+
+    .banner-text p {
+        color: white;
+        font-size: 16px;
+        padding: 1em;
+        padding-bottom: 0;
+    }
+    .portrait {
+        width: 275px;
+        height: 275px;
+        background-image: url('https://avatars1.githubusercontent.com/u/14877763?s=460&v=4');
+        background-size: cover;
+        display: block;
+        border-radius: 137px;
+        -webkit-border-radius: 137px;
+        -moz-border-radius: 137px;
+        display: inline-block;
+    }
 }
