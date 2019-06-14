@@ -6,7 +6,7 @@ class LandingPage extends Component {
 		return (
 			<div className="landing-page">
 				<Grid className="landing-grid">
-					<Cell col={12}>
+					<Cell col={12} syle={{marginBottom: '50px'}}>
 						<div className="portrait-container">
 							<div className="portrait"></div>
 						</div>
