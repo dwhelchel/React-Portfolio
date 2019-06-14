@@ -12,7 +12,7 @@ class LandingPage extends Component {
 						</div>
 						<div className="banner-container">
 							<div className="banner-text">
-								<h1>Software Engineer</h1>
+								<h1>Junior Software Engineer</h1>
 								<hr />
 								<p>CSS | HTML5 | C# | C++ | Python | PostgreSQL | JavaScript | React | Angular | Bootstrap</p>
 								<div className="socials">
