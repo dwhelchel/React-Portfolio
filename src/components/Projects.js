@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardActions, Button, IconButton, CardText, CardMenu } from 'react-mdl';
+import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardActions, Button, CardText } from 'react-mdl';
 
 class Projects extends Component {
 	constructor(props) {
@@ -36,9 +36,6 @@ class Projects extends Component {
 						<CardActions>
 							<Button colored><a className="project-button" href="https://github.com/dwhelchel/CS130-Ray-Tracer" target="_blank" rel="noopener noreferrer">GitHub</a></Button>
 						</CardActions>
-						<CardMenu style={{color: '#fff'}}>
-							<IconButton name="share"/>
-						</CardMenu>
 					</Card>
 
 					{/* Pipeline */}
@@ -55,9 +52,6 @@ class Projects extends Component {
 						<CardActions>
 							<Button colored><a className="project-button" href="https://github.com/dwhelchel/CS130-Pipeline" target="_blank" rel="noopener noreferrer">GitHub</a></Button>
 						</CardActions>
-						<CardMenu style={{color: '#fff'}}>
-							<IconButton name="share"/>
-						</CardMenu>
 					</Card>
 				</div>
 			);
@@ -78,9 +72,6 @@ class Projects extends Component {
 						<CardActions>
 							<Button colored><a className="project-button" href="https://github.com/anchiou/MiniJava-to-MIPS" target="_blank" rel="noopener noreferrer">GitHub</a></Button>
 						</CardActions>
-						<CardMenu style={{color: '#fff'}}>
-							<IconButton name="share"/>
-						</CardMenu>
 					</Card>
 				</div>
 			);
@@ -103,9 +94,6 @@ class Projects extends Component {
 						<CardActions>
 							<Button colored><a className="project-button" href="https://github.com/dwhelchel/React-Portfolio" target="_blank" rel="noopener noreferrer">GitHub</a></Button>
 						</CardActions>
-						<CardMenu style={{color: '#fff'}}>
-							<IconButton name="share"/>
-						</CardMenu>
 					</Card>
 				</div>
 			);

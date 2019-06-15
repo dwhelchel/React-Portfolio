@@ -101,7 +101,7 @@
 
 .project-card {
     min-width: 450;
-    margin: auto;
+    margin: 10px;
 }
 
 .card-title-cplusplus {
@@ -114,6 +114,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .project-button {
