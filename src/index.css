@@ -196,13 +196,15 @@
 .about-me-div p {
     font-size: 18px;
     color: white;
+    text-align: left;
 }
 
 .about-me-grid {
-    width: 60%;
+    width: 80%;
     background-color: #27221F;
     border-radius: 12px;
-    height: 800px;
+    min-height: 575px;
+    margin-bottom: 20px;
 }
 
 @media screen and (max-width: 376px) and (max-height: 813px) { /* iPhone X/Xs */
