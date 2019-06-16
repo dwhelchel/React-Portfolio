@@ -80,12 +80,9 @@ class Projects extends Component {
 		else {
 			return (
 				<div className="projects-grid">
+					{/* Portfolio */}
 					<Card shadow={5} className="project-card">
-						<CardTitle
-							style={{color: '#fff', height: '176px',
-							background: 'url(https://cdn-images-1.medium.com/max/1200/1*y6C4nSvy2Woe0m7bWEn4BA.png) center / cover',
-							padding: '6px'}}>
-							Portfolio Website</CardTitle>
+						<CardTitle className="react-card" style={{color: '#fff', padding: '6px'}}>Portfolio Website</CardTitle>
 						<CardText>
 							Created a portfolio website with the use of React.js and the React router.
 							Utilized components from React Material Design Lite (react-mdl) such as Cards
@@ -93,6 +90,19 @@ class Projects extends Component {
 						</CardText>
 						<CardActions>
 							<Button colored><a className="project-button" href="https://github.com/dwhelchel/React-Portfolio" target="_blank" rel="noopener noreferrer">GitHub</a></Button>
+						</CardActions>
+					</Card>
+
+					{/* Brewery Directory */}
+					<Card shadow={5} className="project-card">
+						<CardTitle className="react-card" style={{color: '#fff', padding: '6px'}}>Brewery Directory</CardTitle>
+						<CardText>
+							Built a brewery directory to look up breweries in the United States by city, name, state, and type.
+							Utilized SASS for styling and flexbox for element orientation. This project makes HTTP requests to the 
+							Open Brewery DB.
+						</CardText>
+						<CardActions>
+							<Button colored><a className="project-button" href="https://github.com/dwhelchel/ReactJS-Brewery-Site" target="_blank" rel="noopener noreferrer">GitHub</a></Button>
 						</CardActions>
 					</Card>
 				</div>
