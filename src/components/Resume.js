@@ -47,7 +47,7 @@ class Resume extends Component {
 							maintain software projects. Gained invaluable experience working within a team to complete a senior
 							design project involving the creation of a MiniJava compiler."
 						/>
-						<hr style={{borderTop: '3px solid #e22947'}} />
+						<hr style={{borderTop: '3px solid #e22947', width: '97%'}} />
 						<h2>Experience</h2>
 						<Experience
 							startYear="June 2018"
